@@ -1,6 +1,10 @@
 export default function filepicky(options) {
-  document.querySelector(options.picker)
-    .addEventListener('click', () => {
-    document.querySelector(options.input).click()
+  const picker = document.querySelector(options.picker)
+  const input = document.querySelector(options.input)
+
+  input.setAttribute('hidden', true)
+
+  picker.addEventListener('click', () => {
+    input.click()
   })
 }
