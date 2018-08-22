@@ -2,7 +2,7 @@
   "name": "filepicky",
   "version": "0.0.1",
   "description": "Simple custom file picker",
-  "main": "filepicky.js",
+  "main": "src/filepicky.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
