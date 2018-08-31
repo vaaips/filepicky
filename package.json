@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rahulspace/filepicky.git"
+    "url": "git+https://github.com/vaaips/filepicky.git"
   },
   "keywords": [
     "file",
@@ -18,8 +18,8 @@
     "plugin",
     "library"
   ],
-  "author": "rahulspace",
-  "license": "ISC",
+  "author": "vaaips",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rahulspace/filepicky/issues"
   },
