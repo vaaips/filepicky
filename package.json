@@ -4,7 +4,7 @@
   "description": "Simple custom file picker",
   "main": "src/filepicky.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/filepicky.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/rahulspace/filepicky/issues"
   },
-  "homepage": "https://github.com/rahulspace/filepicky#readme"
+  "homepage": "https://github.com/rahulspace/filepicky#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0"
+  }
 }
